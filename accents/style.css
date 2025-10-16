@@ -174,28 +174,69 @@ header {
 .start {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
   justify-content: center;
   align-items: center;
+  
 }
 
-.start img {
-  max-width: 540px;
-  height: auto;
+.start-div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 30%;
+  height: 150px;
+  
+  border-radius: 15px;
+}
+.green {
+  background-color: rgb(101,163,48);
+  background-image: url(../images/wamalihealth.png);
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  background-size: 80px;
+
+}
+.yelow {
+  background-color: rgb(231,179,0);
+  background-image: url(../images/bavshvifamily.png);
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  background-size: 80px;
+}
+.redd {
+  background-color: rgb(198,1,127);
+  background-image: url(../images/silamazebeauty.png);
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  background-size: 80px;
 }
 
+.start-div h2 {
+  color: white;
+  padding-left: 30px;
+}
 .offer_menu {
   display: flex;
+  flex-direction: row;
   gap: 20px;
   justify-content: center;
   align-items: center;
   padding-bottom: 40px;
   padding-top: 50px;
+  width: 95%;
+  max-width: 1750px;
+  
+}
+.offer {
+  width: 100%;
 }
 
 .offer_menu img {
-  width: 320px;
+  width: 100%;
   border-radius: 25px;
+  height: 200px;
+  object-fit: cover;
 }
 
 .offer_menu {
@@ -203,7 +244,7 @@ header {
   display: flex;
   gap: 20px;
   align-items: center;
-  align-items: flex-start;
+ 
 }
 
 .first,
@@ -220,6 +261,7 @@ header {
   border-radius: 25px;
   padding-bottom: 20px;
   padding-left: 20px;
+  padding-right: 20px;
 
 }
 
@@ -237,6 +279,7 @@ header {
   border-radius: 25px;
   padding-bottom: 20px;
   padding-left: 20px;
+  padding-right: 20px;
 
 }
 
