@@ -218,19 +218,15 @@ header {
 }
 .offer_menu {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
   align-items: center;
-  padding-bottom: 40px;
-  padding-top: 50px;
-  width: 95%;
-  max-width: 1750px;
+ 
   
 }
-.offer {
-  width: 100%;
-}
+
+
 
 .offer_menu img {
   width: 100%;
@@ -399,4 +395,15 @@ main {
   font-size: 20px;
   color: white;
   margin-left: 200px;
+}
+.background-picture {
+  display: flex;
+  gap:20px;
+  background-image: url(https://assets.psp.ge/media/wysiwyg/111_2.png);
+  background-repeat: no-repeat;
+  background-position: 100px left;
+  bac
+  width: 100%;
+
+ 
 }
